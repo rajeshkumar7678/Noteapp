@@ -1,0 +1,9 @@
+.addtodos form{
+    border: 15px;
+    width: 400px;
+    
+}
+input[type="text"]{
+    text-align: center;
+    width: 80%;
+}

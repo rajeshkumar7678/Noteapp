@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background: url("https://gifdb.com/images/high/light-trails-wave-background-r4tz04b0l8kqi6do.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+nav{
+  margin: 20px;
+  height: 50px;
+  border: 2px solid red;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+   
+}
+
+
