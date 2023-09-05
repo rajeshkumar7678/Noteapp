@@ -8,7 +8,7 @@ export default function Showdata() {
     const [selectedCards, setSelectedCards] = useState({});
 
     useEffect(() => {
-        fetch("http://localhost:1000/post/allpost")
+        fetch("https://noteapp-5iek.onrender.com/post/allpost")
             .then((res) => res.json())
             .then((data) => {
                 setpostdata(data.allpost);
@@ -26,12 +26,13 @@ export default function Showdata() {
     };
 
     return (
-        <div className='appendcard'>
+        <div className='appendcard2'>
             {postdata.map(ele => (
-                <div key={ele._id} className={`card ${selectedCards[ele._id] ? 'selected' : ''}`}>
-                    <h2>{ele.title}</h2>
+                
+                <div key={ele._id} className={`showcard ${selectedCards[ele._id] ? 'selected' : ''}`}>
+                    <h1>{ele.title}</h1>
                     <p>{ele.description}</p>
-                    <div className='bottom'>
+                    <div className='bottom2'>
                         <button onClick={() => toggleFavorite(ele._id)}>
                             <FavoriteIcon style={{ color: selectedCards[ele._id] ? 'red' : '#1a0383' }} />
                             <span></span>

@@ -12,10 +12,11 @@ export default function Addtodos() {
         let obj={
             title,
             description:des,
-            userid:user._id
+            userid:user._id,
+            username:user.name
         }
         console.log(obj)
-        fetch("http://localhost:1000/post/post",{
+        fetch("https://noteapp-5iek.onrender.com/post/post",{
             method:"POST",
             headers:{"content-type":"application/json"},
             body:JSON.stringify(obj)

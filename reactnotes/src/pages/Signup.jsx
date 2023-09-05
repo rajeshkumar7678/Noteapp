@@ -35,7 +35,7 @@ export default function Signup() {
                 password
             }
             console.log(obj)
-            fetch("http://localhost:1000/user/register",{
+            fetch("https://noteapp-5iek.onrender.com/user/register",{
                 method:"POST",
                 headers:{
                 "content-type":"application/json"
@@ -62,7 +62,7 @@ export default function Signup() {
     }
     
   return (
-    <div className='main'>
+    <div className='main123'>
         <h1 style={{color:"white",margin:"10px"}}>Signup Here !!</h1>
       <form onSubmit={takecare} >
         <label>

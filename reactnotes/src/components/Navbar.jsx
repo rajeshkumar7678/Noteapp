@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
     const { user,setUser } = useUser();
     const logout=()=>{
-      fetch("http://localhost:1000/user/logout")
+      fetch("https://noteapp-5iek.onrender.com/user/logout")
         .then((res)=>res.json())
         .then((data)=>{
             if(data.msg==="logout successfull"){

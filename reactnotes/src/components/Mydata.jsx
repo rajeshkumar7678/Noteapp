@@ -25,7 +25,7 @@ export default function Mydata() {
         // Send the updated post data to the backend
         console.log("Updated Post:", updatedPost);
         // ... implement update logic ...
-        fetch(`http://localhost:1000/post/post/${id}`, {
+        fetch(`https://noteapp-5iek.onrender.com/post/post/${id}`, {
             method: "PUT",
             headers: { "Content-Type": "application/json" }, 
             body: JSON.stringify(updatedPost)
@@ -51,7 +51,7 @@ export default function Mydata() {
     function deletetodos(ele){
 
 
-        fetch(`http://localhost:1000/post/post/${ele}`,{
+        fetch(`https://noteapp-5iek.onrender.com/post/post/${ele}`,{
             method:"DELETE",
             header:{"content-type":"application/json"}
         })
@@ -73,7 +73,7 @@ export default function Mydata() {
     }
 
     function fetchdata(){
-        fetch(`http://localhost:1000/post/${user._id}`)
+        fetch(`https://noteapp-5iek.onrender.com/post/${user._id}`)
         .then((res)=>res.json())
         .then((data)=>{
             if(data.msg){
@@ -104,7 +104,7 @@ export default function Mydata() {
         <div className='appendcard'>
           {postdata.map(ele => (
             <div key={ele._id} className='card'>
-              <h2>{ele.title}</h2>
+              <h1>{ele.title}</h1>
               <p>{ele.description}</p>
               <div className='bottom1'>
                 <button onClick={() => edit(ele)}>Edit</button>

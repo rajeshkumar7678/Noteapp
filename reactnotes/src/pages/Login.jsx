@@ -21,7 +21,7 @@ export default function Login() {
             email,
             password
         }
-        fetch("http://localhost:1000/user/login",{
+        fetch("https://noteapp-5iek.onrender.com/user/login",{
           method:"POST",
           headers:{
             "content-type":"application/json"
@@ -63,7 +63,7 @@ export default function Login() {
         })
     }
   return (
-    <div className='main'>
+    <div className='main123'>
       
       <h1 style={{color:"white",margin:"10px"}} >Login Here !</h1>
       <form onSubmit={submitdetalis}>
