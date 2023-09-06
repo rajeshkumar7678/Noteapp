@@ -18,6 +18,15 @@
     height: 100%;
 }
 
+.card h1{
+    margin-bottom: 5px;
+    color: rgb(27, 26, 26);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .bottom1{
     display: flex;
     justify-content: flex-end; 
