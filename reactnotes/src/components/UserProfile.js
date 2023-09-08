@@ -5,7 +5,7 @@ export default function UserProfile() {
   const { user } = useUser();
 
   if (!user) {
-    return <p></p>; // Handle if user data is not available yet
+    return <p style={{marginTop:"10px"}}></p>; // Handle if user data is not available yet
   }
 
   return (
