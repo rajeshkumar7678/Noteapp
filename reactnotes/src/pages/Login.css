@@ -16,9 +16,9 @@
   form {
     color: white;
     padding: 5%;
-    border: 1px solid #ccc;
+    border: 2px dotted #ccc;
     border-radius: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: blue 0px 20px 30px -10px;
     width: 300px;
     /* background-color: #f9f9f9; */
     backdrop-filter: blur(5px);

@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+  
+
+
 body {
   margin: 0;
-  background: url("https://gifdb.com/images/high/light-trails-wave-background-r4tz04b0l8kqi6do.gif");
+  
+  background: url("https://wallpaperaccess.com/full/7270362.gif");
   background-repeat: no-repeat;
   background-size: cover;
-
+  font-family: 'Kalam', cursive;
 }
 
 nav{
+  margin-top: 0px;
   margin: 20px;
   height: 50px;
   border: 2px solid red;

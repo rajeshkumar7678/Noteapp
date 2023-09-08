@@ -6,6 +6,7 @@ import SmsIcon from '@mui/icons-material/Sms';
 export default function Showdata() {
     const [postdata, setpostdata] = useState([]);
     const [selectedCards, setSelectedCards] = useState({});
+    
 
     useEffect(() => {
         fetch("https://noteapp-5iek.onrender.com/post/allpost")
@@ -19,10 +20,14 @@ export default function Showdata() {
     }, []);
 
     const toggleFavorite = (cardId) => {
+
         setSelectedCards(prevSelectedCards => ({
             ...prevSelectedCards,
             [cardId]: !prevSelectedCards[cardId]
+            
         }));
+        
+        //setlike(like+1)
     };
 
     return (

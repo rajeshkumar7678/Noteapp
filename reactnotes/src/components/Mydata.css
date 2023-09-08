@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 .appendcard{
     max-height: 500px;
     overflow-y: auto;
@@ -21,11 +22,9 @@
 .card h1{
     margin-bottom: 5px;
     color: rgb(27, 26, 26);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
-.card p{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 
 .bottom1{
     display: flex;
@@ -40,7 +39,9 @@
     border-radius: 15px;
     border: none;
     font-size: large;
-    background-color: #1a0383;
+    background-color:#4a33b1;
+    /* background-color: #1a0383; */
+    font-family: 'Kalam', cursive;
     color: white;
     cursor: pointer;
 }
