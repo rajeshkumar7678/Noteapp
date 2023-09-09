@@ -38,8 +38,8 @@ for Backend : node js, Express, mongoDb
 ![Screenshot (120)](https://github.com/rajeshkumar7678/Noteapp/assets/119392762/9201e8b9-1b2f-4be6-9b12-433f66b30016)
 
 ---
-⭐Deployed Link Frontend:- [https://healthydot.netlify.app/](https://healthydot.netlify.app/)
-⭐Deployed Link Frontend:- [https://healthydot.netlify.app/](https://healthydot.netlify.app/)
+⭐Deployed Link Frontend:- [Click Here](https://noteapp-omega.vercel.app/)
+⭐Deployed Link Frontend:- [Click Here](https://noteapp-5iek.onrender.com/)
 
 
 ----
