@@ -30,7 +30,7 @@ for Backend : node js, Express, mongoDb
 
 ![Screenshot (122)](https://github.com/rajeshkumar7678/Noteapp/assets/119392762/cac3f680-c66c-49f2-afd8-ba1e52caae0a)
 
-# PopUp | MyNotes
+# PopUp | MyNotes |AddNotes
 ![Screenshot (121)](https://github.com/rajeshkumar7678/Noteapp/assets/119392762/4cedb1b8-12a7-4f97-a1be-10722b09d353)
 
 ![Screenshot (119)](https://github.com/rajeshkumar7678/Noteapp/assets/119392762/242b9338-8028-47eb-aff0-6a959b48143b)
@@ -39,7 +39,7 @@ for Backend : node js, Express, mongoDb
 
 ---
 ⭐Deployed Link Frontend:- [Click Here](https://noteapp-omega.vercel.app/)<br>
-⭐Deployed Link Frontend:- [Click Here](https://noteapp-5iek.onrender.com/)
+⭐Deployed Link Backend:- [Click Here](https://noteapp-5iek.onrender.com/)
 
 
 ----
